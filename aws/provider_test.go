@@ -1206,6 +1206,6 @@ provider "aws" {
 }
 
 func TestMain(m *testing.M) {
-	acctest.UseNewFramework("aws", Provider)
+	acctest.UseNewFramework("terraform-provider-aws", Provider)
 	resource.TestMain(m)
 }
